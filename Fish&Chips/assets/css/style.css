@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Slabo27px';
+    src: url('../fonts/Slabo27px-Regular.ttf');
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSansRegular.ttf'), url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+body {
+    background-image: url('../img/fond.png');
+}
+main, footer {
+    min-width:800px;
+    max-width:1100px;
+    margin:auto;
+}
+header {
+    margin-top: 100px;
+    background-color: #24b4b4;
+    border: 5px solid #2b9aa0;
+    text-align: center;
+}
+#logo {
+    height:115px;
+}
+.linknav {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.3em;
+    display: inline-block;
+    margin: 15px;
+}
+.linknav, h1, h2, h3, h4 {
+    font-family: 'Slabo27px';
+    font-weight: lighter;
+}
+#section1 {
+    width:67%;
+    text-align:center;
+    margin: 60px auto;
+    color: #4f5f66;
+    line-height: 30px;
+}
+h1 {
+    font-size: 2.5em;
+}
+#sectionleft,
+aside,
+article {
+    display:inline-block;
+    box-sizing: border-box;
+}
+#sectionleft {
+    width:70%;
+    background-color: #b6dedc;
+    color: #4f5f66;
+    padding: 50px;
+    line-height: 30px;
+}
+h2 {
+    font-size: 3.5em;
+}
+#today {
+    color:#2b9aa0;
+}
+h3 {
+    font-size: 1.8em;
+}
+.fa-droplet{
+    font-size: 20px;
+    color:#24b4b4;
+    margin: 10px;
+}
+h2, h3 {
+    text-align:center;
+}
+p, h5 {
+    font-size: 1em;
+    font-family: 'OpenSans';
+}
+.recipeimg {
+    float: left;
+    border-radius: 50%;
+    margin-right:10px;
+}
+#sectionleft > article {
+    width: 47%;
+    vertical-align: top;
+}
+#article2move {
+    position:relative;
+    left:6%;
+}
+.readmore { 
+    display:block;
+    width:120px;
+    padding: 5px;
+    text-align: center;
+    background-color: #2b9aa0;
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-left:180px;
+}
+.fa-plus-circle {
+    color: #ffffff;
+    vertical-align: text-bottom;
+    margin-left: 10px;
+}
+aside {
+    width: 28%;
+    background-color: #34b1b2;
+    border: 4px solid #2b9aa0;
+    vertical-align:top;
+    text-align: left;
+    padding: 10px 35px 30px;
+    line-height: 30px;
+    position: relative;
+    left: 2%;
+}
+h4 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+#news, h5 {
+    color: #a4d8d6;
+}
+#events, aside>article>p {
+    color:#ffffff;
+}
+h5 {
+    margin-top: -10px;
+    margin-bottom: -15px;
+    font-weight: lighter;
+}
+#vignette {
+    position: absolute;
+    right:-50px;
+    top: -50px;
+}
+aside p {
+    font-size: 0.9em;
+}
+footer {
+    text-align: center;
+    font-size:79%;
+    color:#4f5f66;
+    line-height: 5px;
+}
+#logo3WA {
+    width: 50px;
+    margin-top: 20px;
+}
+.bluelink {
+    color:blue;
+}
+.purplelink {
+    
+}
+footer a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
